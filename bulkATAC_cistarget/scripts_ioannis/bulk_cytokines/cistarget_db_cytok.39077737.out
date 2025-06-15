@@ -1,0 +1,78 @@
+
+Scoring 10249 motifs with Cluster-Buster took: 68781.625570 seconds
+
+Writing cisTarget regions vs motifs scores db: "/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/cistarget_db.motifs_vs_regions.scores.feather"
+Writing cisTarget regions vs motifs scores db took: 105.664781 seconds
+
+Writing cisTarget motifs vs regions scores db: "/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/cistarget_db.regions_vs_motifs.scores.feather"
+Writing cisTarget motifs vs regions scores db took: 156.352228 seconds
+
+Creating cisTarget rankings db from cisTarget scores db took: 669.487102 seconds
+
+Writing cisTarget motifs vs regions rankings db: "/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/cistarget_db.regions_vs_motifs.rankings.feather"
+Writing cisTarget motifs vs regions rankings db took: 96.091218 seconds
+
+
+Reading cisTarget motifs vs regions scores db: "/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/cistarget_db.motifs_vs_regions.scores.feather"
+Reading cisTarget motifs vs regions scores db took: 18.542380 seconds
+
+Create rankings from "/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/cistarget_db.motifs_vs_regions.scores.feather" with random seed set to 42.
+Creating cisTarget rankings db from cisTarget scores db took: 678.052080 seconds
+
+Convert motifs vs regions cisTarget rankings db to regions vs motifs cisTarget rankings db.
+Writing cisTarget motifs vs regions rankings db: "/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/cistarget_db.regions_vs_motifs.rankings.feather"
+Writing cisTarget motifs vs regions rankings db took: 134.338541 seconds
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@node-13-19>
+Subject: Job 39077737: <cistarget_db_cytok> in cluster <farm5> Done
+
+Job <cistarget_db_cytok> was submitted from host <farm5-head1> by user <is10> in cluster <farm5> at Fri Nov 24 18:31:46 2023
+Job was executed on host(s) <4*node-13-19>, in queue <long>, as user <is10> in cluster <farm5> at Fri Nov 24 18:31:56 2023
+</nfs/users/nfs_i/is10> was used as the home directory.
+</nfs/team205/is10/projects/fibroblasts/bulk_cytokines> was used as the working directory.
+Started at Fri Nov 24 18:31:56 2023
+Terminated at Sat Nov 25 14:10:12 2023
+Results reported at Sat Nov 25 14:10:12 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J 'cistarget_db_cytok'
+#BSUB -q long
+#BSUB -n 4
+#BSUB -M 100000
+#BSUB -R 'span[hosts=1] select[mem>100000] rusage[mem=100000]'
+#BSUB -o './cistarget_db_cytok.%J.out'
+#BSUB -e './cistarget_db_cytok.%J.err'
+
+bash 002_create_cistarget_db.sh
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   278094.47 sec.
+    Max Memory :                                 37791 MB
+    Average Memory :                             6897.75 MB
+    Total Requested Memory :                     100000.00 MB
+    Delta Memory :                               62209.00 MB
+    Max Swap :                                   -
+    Max Processes :                              33
+    Max Threads :                                279
+    Run time :                                   70705 sec.
+    Turnaround time :                            70706 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./cistarget_db_cytok.39077737.err> for stderr output of this job.
+

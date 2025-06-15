@@ -1,0 +1,85 @@
+---
+title: "Exploring cistarget results"
+output: html_document
+uthor: "Ioannis Sarropoulos"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+---
+```{r}
+## Install packages
+#BiocManager::install("ComplexHeatmap")
+```
+
+```{r}
+library(tidyverse)
+library(ComplexHeatmap)
+```
+
+```{r, fig.width=8, fig.height=8}
+## Read cistarget results
+cistarget_res <- read_tsv('/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/enrichment_padj0.01/cistarget_res_df_NES0.1.txt') %>%
+  rename(motif=X1)
+
+cistarget_res$Region_set <- gsub('differential_peak_table_FDR05_annotated_matched_', '', cistarget_res$Region_set)
+
+table(cistarget_res$Region_set)
+
+## By motif
+cistarget_res_mat <- select(cistarget_res, motif, Region_set, NES) %>%
+  unique() %>%
+  pivot_wider(names_from = Region_set, values_from =NES, values_fill=0) %>%
+  column_to_rownames('motif')
+
+## Filter for significant in at least one condition
+cistarget_res_mat <- cistarget_res_mat[apply(cistarget_res_mat, 1, max) >=3,]
+
+Heatmap(cistarget_res_mat,  
+        show_row_names = F,
+        show_column_names = T,
+        clustering_method_columns = 'ward.D2', 
+        clustering_method_rows = 'ward.D2')
+```
+
+```{r, fig.width=9, fig.height=8}
+## By annotation
+cistarget_res_mat_anno <- filter(cistarget_res, is.na(Direct_annot)==F) %>%
+  separate_rows(Direct_annot, sep=',') %>%
+  group_by(Direct_annot, Region_set) %>%
+  summarise(NES=max(NES)) %>%
+  pivot_wider(names_from = Region_set, values_from =NES, values_fill=0) %>%
+  column_to_rownames('Direct_annot')
+
+## Filter for significant in at least one condition
+cistarget_res_mat_anno <- cistarget_res_mat_anno[apply(cistarget_res_mat_anno, 1, max) >=3,]
+
+## Identify top motifs per class to highlight:
+top_motifs <- sapply(1:ncol(cistarget_res_mat_anno), function(i) {
+  row.names(cistarget_res_mat_anno)[order(cistarget_res_mat_anno[,i], decreasing = T)][1]
+}) %>%
+  unique()
+
+motif_anno = rowAnnotation(foo = anno_mark(at = which(row.names(cistarget_res_mat_anno) %in% top_motifs),
+                                           labels = row.names(cistarget_res_mat_anno)[which(row.names(cistarget_res_mat_anno) %in% top_motifs)]), 
+                           annotation_legend_param = list(direction = "horizontal",nrow = 1,
+                                                          labels_gp = gpar(fontsize = 0.1), padding = unit(20, "mm")))
+
+Heatmap(cistarget_res_mat_anno,  
+        show_row_names = F,
+        show_column_names = T,
+        clustering_method_columns = 'ward.D2', 
+        clustering_method_rows = 'ward.D2',
+        right_annotation = motif_anno)
+```
+
+For downstream analyses, one would like to intersect these motifs with DE genes or GRNs to resolve the issues with redundancy due to multiple TFs recognising the same motif.
+
+```{r}
+## Export
+write.table(cistarget_res_mat, '/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/enrichment_padj0.01/cistarget_res_df_NES0.1_motif_matrix.txt', row.names = T, col.names = T, sep = '\t', quote = F)
+
+write.table(cistarget_res_mat_anno, '/lustre/scratch126/cellgen/team205/is10/fibroblasts/bulk_cytokines/cistarget/enrichment_padj0.01/cistarget_res_df_NES0.1_TF_matrix.txt', row.names = T, col.names = T, sep = '\t', quote = F)
+```
+
+```{r}
+sessionInfo()
+```
+
