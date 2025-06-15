@@ -1,0 +1,33 @@
+{
+    "atac.pipeline_type" : "atac",
+    "atac.genome_tsv" : "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.fastqs_rep1_R1" : [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L001-ds.c570ed564ae04415a759bae46d11c955/conditioned-Belinostat-13_S7_L001_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep1_R2" : [
+            "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L001-ds.c570ed564ae04415a759bae46d11c955/conditioned-Belinostat-13_S7_L001_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep2_R1" : [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L002-ds.c3cdf4caaaba47bcbc58e7de13f58f85/conditioned-Belinostat-13_S7_L002_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep2_R2" : [
+         "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L002-ds.c3cdf4caaaba47bcbc58e7de13f58f85/conditioned-Belinostat-13_S7_L002_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep3_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L003-ds.7bb6ccfd39a14a78848f3005b7a839b8/conditioned-Belinostat-13_S7_L003_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep3_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L003-ds.7bb6ccfd39a14a78848f3005b7a839b8/conditioned-Belinostat-13_S7_L003_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep4_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L004-ds.7229bd0d9ffd4de79812e3b67be9c67b/conditioned-Belinostat-13_S7_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep4_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L004-ds.7229bd0d9ffd4de79812e3b67be9c67b/conditioned-Belinostat-13_S7_L004_R2_001.fastq.gz"
+    ],
+    "atac.paired_end" : true,
+    "atac.auto_detect_adapter" : true,
+    "atac.enable_xcor" : true,
+    "atac.title" : "ENCSR356KRQ (subsampled 1/400)",
+    "atac.description" : "ATAC-seq on primary keratinocytes in day 0.0 of differentiation"
+}

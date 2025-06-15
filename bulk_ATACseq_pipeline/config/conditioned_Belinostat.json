@@ -1,0 +1,80 @@
+{
+    "atac.pipeline_type": "atac",
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": "true",
+    "atac.auto_detect_adapter": "true",
+    "atac.enable_xcor": "true",
+    "atac.title": "conditioned_Belinostat",
+    "atac.fastqs_rep1_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L003-ds.7bb6ccfd39a14a78848f3005b7a839b8/conditioned-Belinostat-13_S7_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L004-ds.7229bd0d9ffd4de79812e3b67be9c67b/conditioned-Belinostat-13_S7_L004_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L002-ds.c3cdf4caaaba47bcbc58e7de13f58f85/conditioned-Belinostat-13_S7_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L001-ds.c570ed564ae04415a759bae46d11c955/conditioned-Belinostat-13_S7_L001_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep1_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L003-ds.7bb6ccfd39a14a78848f3005b7a839b8/conditioned-Belinostat-13_S7_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L004-ds.7229bd0d9ffd4de79812e3b67be9c67b/conditioned-Belinostat-13_S7_L004_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L002-ds.c3cdf4caaaba47bcbc58e7de13f58f85/conditioned-Belinostat-13_S7_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_13_L001-ds.c570ed564ae04415a759bae46d11c955/conditioned-Belinostat-13_S7_L001_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep2_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L001-ds.6dbed117024d4e3c8cda2b3dc0fb14dc/conditioned-Belinostat-14_S8_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L002-ds.d90de4df57dd4f40adf99fbc1ac3e2f7/conditioned-Belinostat-14_S8_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L003-ds.f25e570f7c0e4fa4a93dda123803213b/conditioned-Belinostat-14_S8_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L004-ds.4cefe52305354ae889c19dce7274d23b/conditioned-Belinostat-14_S8_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep2_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L001-ds.6dbed117024d4e3c8cda2b3dc0fb14dc/conditioned-Belinostat-14_S8_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L002-ds.d90de4df57dd4f40adf99fbc1ac3e2f7/conditioned-Belinostat-14_S8_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L003-ds.f25e570f7c0e4fa4a93dda123803213b/conditioned-Belinostat-14_S8_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_14_L004-ds.4cefe52305354ae889c19dce7274d23b/conditioned-Belinostat-14_S8_L004_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep3_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L001-ds.3d2ae5a6f6ad4f26a76ff09e349fe404/conditioned-Belinostat-15_S9_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L004-ds.fe1efb2948d34e48b64d8355e222ee72/conditioned-Belinostat-15_S9_L004_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L003-ds.986ae09c14f64d0fa3faee608fa0eb1a/conditioned-Belinostat-15_S9_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L002-ds.8c9c74bb37d94057bb1e3ffa507ca46e/conditioned-Belinostat-15_S9_L002_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep3_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L001-ds.3d2ae5a6f6ad4f26a76ff09e349fe404/conditioned-Belinostat-15_S9_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L004-ds.fe1efb2948d34e48b64d8355e222ee72/conditioned-Belinostat-15_S9_L004_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L003-ds.986ae09c14f64d0fa3faee608fa0eb1a/conditioned-Belinostat-15_S9_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_15_L002-ds.8c9c74bb37d94057bb1e3ffa507ca46e/conditioned-Belinostat-15_S9_L002_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep4_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L004-ds.181d6379f19b4ec89ea445dd0a5be58e/conditioned-Belinostat-16_S10_L004_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L002-ds.f9491a1ac2ec4720bb39a1230c9f26dc/conditioned-Belinostat-16_S10_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L001-ds.8fdb824e524a46918e6b1abdbfe553a1/conditioned-Belinostat-16_S10_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L003-ds.e85762977c8743e8baaac10224a1a9bf/conditioned-Belinostat-16_S10_L003_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep4_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L004-ds.181d6379f19b4ec89ea445dd0a5be58e/conditioned-Belinostat-16_S10_L004_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L002-ds.f9491a1ac2ec4720bb39a1230c9f26dc/conditioned-Belinostat-16_S10_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L001-ds.8fdb824e524a46918e6b1abdbfe553a1/conditioned-Belinostat-16_S10_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_16_L003-ds.e85762977c8743e8baaac10224a1a9bf/conditioned-Belinostat-16_S10_L003_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep5_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L001-ds.589f846779854dd38f0c338f950e4804/conditioned-Belinostat-17_S11_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L003-ds.60c319d5ad654eb68fdb8abb0cad7934/conditioned-Belinostat-17_S11_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L002-ds.fbaed0c1a49b457da5f7e8d7d5e7c69c/conditioned-Belinostat-17_S11_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L004-ds.da01ec3990a343d48e38e36f621449af/conditioned-Belinostat-17_S11_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep5_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L001-ds.589f846779854dd38f0c338f950e4804/conditioned-Belinostat-17_S11_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L003-ds.60c319d5ad654eb68fdb8abb0cad7934/conditioned-Belinostat-17_S11_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L002-ds.fbaed0c1a49b457da5f7e8d7d5e7c69c/conditioned-Belinostat-17_S11_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_17_L004-ds.da01ec3990a343d48e38e36f621449af/conditioned-Belinostat-17_S11_L004_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep6_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L004-ds.898be0a8019544ce8e9206a811da1756/conditioned-Belinostat-18_S12_L004_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L003-ds.adf22f7c244d464c8c0d0ae27599a80f/conditioned-Belinostat-18_S12_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L001-ds.6e31d67610504686b1fb33cdd3d1dfb6/conditioned-Belinostat-18_S12_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L002-ds.6fc8c6e3fe0646f8bdb01952a02cd3be/conditioned-Belinostat-18_S12_L002_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep6_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L004-ds.898be0a8019544ce8e9206a811da1756/conditioned-Belinostat-18_S12_L004_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L003-ds.adf22f7c244d464c8c0d0ae27599a80f/conditioned-Belinostat-18_S12_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L001-ds.6e31d67610504686b1fb33cdd3d1dfb6/conditioned-Belinostat-18_S12_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/conditioned_Belinostat_18_L002-ds.6fc8c6e3fe0646f8bdb01952a02cd3be/conditioned-Belinostat-18_S12_L002_R2_001.fastq.gz"
+    ]
+}

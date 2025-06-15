@@ -1,0 +1,80 @@
+{
+    "atac.pipeline_type": "atac",
+    "atac.genome_tsv": "https://storage.googleapis.com/encode-pipeline-genome-data/genome_tsv/v4/hg38.tsv",
+    "atac.paired_end": "true",
+    "atac.auto_detect_adapter": "true",
+    "atac.enable_xcor": "true",
+    "atac.title": "unconditioned",
+    "atac.fastqs_rep1_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L003-ds.ff942d2c174b455db09850cb048570f1/unconditioned-1_S1_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L001-ds.5cf1a80b19ef4842a8526c50c2daa46b/unconditioned-1_S1_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L002-ds.2d0140428b5a4da8bed17c7a2caf063e/unconditioned-1_S1_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L004-ds.7f9361e8dd014edbb70f92c2e8b37ed5/unconditioned-1_S1_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep1_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L003-ds.ff942d2c174b455db09850cb048570f1/unconditioned-1_S1_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L001-ds.5cf1a80b19ef4842a8526c50c2daa46b/unconditioned-1_S1_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L002-ds.2d0140428b5a4da8bed17c7a2caf063e/unconditioned-1_S1_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_1_L004-ds.7f9361e8dd014edbb70f92c2e8b37ed5/unconditioned-1_S1_L004_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep2_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L001-ds.f43af5d51f2549ed9bf26eb97678aac3/unconditioned-2_S2_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L002-ds.25c67873b5764631a83f20c95f50e8bb/unconditioned-2_S2_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L003-ds.0346379a7d26464f87b14fff4e600308/unconditioned-2_S2_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L004-ds.543aae736dbd4b16865a5439cdfc11db/unconditioned-2_S2_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep2_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L001-ds.f43af5d51f2549ed9bf26eb97678aac3/unconditioned-2_S2_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L002-ds.25c67873b5764631a83f20c95f50e8bb/unconditioned-2_S2_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L003-ds.0346379a7d26464f87b14fff4e600308/unconditioned-2_S2_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_2_L004-ds.543aae736dbd4b16865a5439cdfc11db/unconditioned-2_S2_L004_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep3_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L002-ds.59a59757eec84411b4831ea912d36efc/unconditioned-3_S3_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L003-ds.491b627ba28b48e9b133bcb18b34af69/unconditioned-3_S3_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L001-ds.ff10333ff69947d0bd114f0b9bb28d63/unconditioned-3_S3_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L004-ds.88d3a34fb5434d5ab777aaa7e9cc7e5f/unconditioned-3_S3_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep3_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L002-ds.59a59757eec84411b4831ea912d36efc/unconditioned-3_S3_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L003-ds.491b627ba28b48e9b133bcb18b34af69/unconditioned-3_S3_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L001-ds.ff10333ff69947d0bd114f0b9bb28d63/unconditioned-3_S3_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_3_L004-ds.88d3a34fb5434d5ab777aaa7e9cc7e5f/unconditioned-3_S3_L004_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep4_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L001-ds.cfedd23dcb9f4fd4a7b57e28953a89cb/unconditioned-4_S4_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L002-ds.e11353543ef9476f8016b1ac1c66e08e/unconditioned-4_S4_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L003-ds.e63070bedf5946c4a4efe0462c072097/unconditioned-4_S4_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L004-ds.77ee98a17b3749e8a319d7b2366e16a3/unconditioned-4_S4_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep4_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L001-ds.cfedd23dcb9f4fd4a7b57e28953a89cb/unconditioned-4_S4_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L002-ds.e11353543ef9476f8016b1ac1c66e08e/unconditioned-4_S4_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L003-ds.e63070bedf5946c4a4efe0462c072097/unconditioned-4_S4_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_4_L004-ds.77ee98a17b3749e8a319d7b2366e16a3/unconditioned-4_S4_L004_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep5_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L001-ds.46edbd96addd4c7bbcf669fbdd201e29/unconditioned-5_S5_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L003-ds.4b565c821b154de09e681d52a7f01614/unconditioned-5_S5_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L004-ds.86288466b86342e3b46d118616f1b126/unconditioned-5_S5_L004_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L002-ds.dfe9514303a44a2aaf6803c85405ee88/unconditioned-5_S5_L002_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep5_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L001-ds.46edbd96addd4c7bbcf669fbdd201e29/unconditioned-5_S5_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L003-ds.4b565c821b154de09e681d52a7f01614/unconditioned-5_S5_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L004-ds.86288466b86342e3b46d118616f1b126/unconditioned-5_S5_L004_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_5_L002-ds.dfe9514303a44a2aaf6803c85405ee88/unconditioned-5_S5_L002_R2_001.fastq.gz"
+    ],
+    "atac.fastqs_rep6_R1": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L001-ds.bb77a5da323d47a7890c47f3b0fef45e/unconditioned-6_S6_L001_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L003-ds.674abdadab54480a9b29dc702b11a348/unconditioned-6_S6_L003_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L002-ds.07221d9b16fd485295baea28c6896fd7/unconditioned-6_S6_L002_R1_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L004-ds.174cb535c2ef4533b2bb0a2f87101795/unconditioned-6_S6_L004_R1_001.fastq.gz"
+    ],
+    "atac.fastqs_rep6_R2": [
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L001-ds.bb77a5da323d47a7890c47f3b0fef45e/unconditioned-6_S6_L001_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L003-ds.674abdadab54480a9b29dc702b11a348/unconditioned-6_S6_L003_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L002-ds.07221d9b16fd485295baea28c6896fd7/unconditioned-6_S6_L002_R2_001.fastq.gz",
+        "/lustre/scratch126/cellgen/team205/sk29/matthias_fb/data/atac_simon/proj068/FASTQ_Generation_2022-12-17_02_34_43Z-640535898/unconditioned_6_L004-ds.174cb535c2ef4533b2bb0a2f87101795/unconditioned-6_S6_L004_R2_001.fastq.gz"
+    ]
+}
